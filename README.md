@@ -1,2 +1,9 @@
-# aws-toolkit-vs-code-user-guide
-The open source version of the AWS Toolkit for Visual Studio Code user guide. You can submit feedback &amp; requests for changes by submitting issues in this repo or by making proposed changes &amp; submitting a pull request.
+## AWS Toolkit for Visual Studio Code
+
+The open source version of the AWS Toolkit for Visual Studio Code user guide. You can submit feedback & requests for changes by submitting issues in this repo or by making proposed changes & submitting a pull request.
+
+## License Summary
+
+The documentation is made available under the Creative Commons Attribution-ShareAlike 4.0 International License. See the LICENSE file.
+
+The sample code within this documentation is made available under the MIT-0 license. See the LICENSE-SAMPLECODE file.
