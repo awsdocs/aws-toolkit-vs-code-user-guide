@@ -24,7 +24,7 @@
 
 1. Choose the AWS icon in the **Activity bar** to open the AWS Explorer\.
 
-1. Right\-click one of the Regions listed to open its context menu\.  
+1. Choose one of the Regions listed and open its context menu\.  
 ![\[AWS ALL Regions menu.\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/images/aws-toolkit-region-context-menu.png)
 
 1. Choose **Hide Region from the Explorer**\.

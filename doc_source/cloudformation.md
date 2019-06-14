@@ -9,7 +9,7 @@
 
 1. Choose **Delete CloudFormation Stack**\.
 
-1. Choose **Yes** to confirm the delete in the message that appears\.  
+1. Choose **Yes** to conﬁrm the delete\.  
 ![\[Delete confirmation message.\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/images/cfn-delete-confirm.png)
 
 After the stack is deleted, you'll will no longer see it listed in the **AWS Explorer**\.

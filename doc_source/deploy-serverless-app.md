@@ -2,6 +2,12 @@
 
  This example shows how to deploy a serverless application to AWS using the AWS Toolkit for Visual Studio Code\. 
 
+## Additional Prerequisites<a name="deploy-sam-prereq"></a>
++ The Amazon S3 bucket name that you choose must be unique\.
++ The AWS credentials that you configured in [Setting Up Your AWS Credentials](setup-credentials.md) must include appropriate read\-write access to the following services: Amazon S3, AWS CloudFormation, AWS Lambda, Amazon API Gateway\.
+
+## Deploy a Serverless Application<a name="deploy-sam-proc"></a>
+
 **To deploy a serverless application with the AWS Toolkit for Visual Studio Code**
 
 1. Open the **Command Palette** and enter **AWS**\.
@@ -15,7 +21,9 @@
 1. Choose the Region to deploy to\.  
 ![\[Choose the serverless application Region.\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/images/sam-deploy-region.png)
 
-1. Enter the name of an Amazon S3 bucket this deployment can use\. The bucket must be in the Region you're deploying to\.  
+1. Enter the name of an Amazon S3 bucket this deployment can use\. The bucket must be in the Region you're deploying to\.
+**Warning**  
+The name must be globally unique across all existing bucket names in Amazon S3\. Therefore, you should add a unique identifier to the name given in the example below \(or choose a different name\)\.  
 ![\[Choose the serverless application bucket.\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/images/sam-deploy-bucket.png)
 
 1. Enter a name for the deployed stack, either a new stack name or an existing stack name\.  
@@ -24,4 +32,4 @@
 1. Verify the success of the the deployment on the **OUTPUT** tab of VS Code\.  
 ![\[Screenshot of the output from deploying a serverless application.\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/images/sam-deploy-progress.png)
 
-When the deployment is complete, you'll see your application listed in the AWS Explorer\. See the [Interacting with Remote Lambda Functions](remote-lambda.md) to learn how to invoke the Lambda function that was created as part of the application\.
+When the deployment is complete, you'll see your application listed in the AWS Explorer\. See [Interacting with Remote Lambda Functions](remote-lambda.md) to learn how to invoke the Lambda function that was created as part of the application\.

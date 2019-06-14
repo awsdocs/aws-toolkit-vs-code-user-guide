@@ -41,18 +41,19 @@ You can't recover the secret key if you lose it\. Instead, for security reasons,
 
 ## Add Your AWS Access Keys to the AWS Toolkit for Visual Studio Code<a name="setup-credentials-set-access-keys"></a>
 
-The AWS Toolkit for Visual Studio Code locates and uses AWS access keys in the same way that the AWS CLI and the AWS SDKs locate and use them\. Access keys that you enter in the AWS Toolkit for Visual Studio Code are saved to a *shared AWS credentials file* \(named `credentials`\) in the `.aws` directory within your home directory\.
+The AWS Toolkit for Visual Studio Code locates and uses AWS access keys through a *shared AWS credentials file*\. This method is the same as that used by the AWS CLI and the AWS SDKs\. Access keys that you enter in the AWS Toolkit for Visual Studio Code are saved to the shared credentials file \(named `credentials`\) in the `.aws` directory within your home directory\. See [Where Are Configuration Settings Stored?](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html#cli-configure-files-where) in the *[AWS Command Line Interface User Guide](https://docs.aws.amazon.com/cli/latest/userguide/)* for more information\.
 
-If you have already set your AWS credentials using the AWS CLI, the AWS Toolkit for Visual Studio Code will automatically detect and make those credentials available for use\. 
+If you have already set your AWS credentials in some way, for example, by using the [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html), the AWS Toolkit for Visual Studio Code will automatically detect and make those credentials available for use\.
 
-For more information about using the AWS CLI, see the [AWS Command Line Interface User Guide](https://docs.aws.amazon.com/cli/latest/userguide/)\.
+**Note**  
+As an alternative to the procedure shown below, the AWS CLI command `[aws configure](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html)` can be used to add AWS credentials to your environment\. This command can also be used to set the default region, which is needed for certain operations such as creating a serverless application\.
 
 **To add your access keys to the AWS Toolkit for Visual Studio Code**
 
 1. Open VS Code\.
 
-1. To open command palette, on the menu bar, choose **View, Command Palette**, or use the following shortcut keys: 
-   + Windows – Press **Ctrl\+Shift\+P**\.
+1. To open the **Command Palette**, on the menu bar, choose **View**, **Command Palette**, or use the following shortcut keys: 
+   + Windows and Linux – Press **Ctrl\+Shift\+P**\.
    + macOS – Press **Shift\+Command\+P**\.
 
 1. Search for **AWS** and choose **AWS: Connect to AWS**\.  
@@ -70,14 +71,14 @@ To use a new set of credentials, you can add a new profile through the AWS Toolk
 
 1. Open VS Code\.
 
-1. To open **Command Palette**, on the menu bar, choose **View, Command Palette**, or use the following shortcut keys\. 
-   + Windows – Press **Ctrl\+Shift\+P**\.
+1. To open the **Command Palette**, on the menu bar, choose **View**, **Command Palette**, or use the following shortcut keys\. 
+   + Windows and Linux – Press **Ctrl\+Shift\+P**\.
    + macOS – Press **Shift\+Command\+P**\.
 
 1. Search for **AWS** and choose **AWS: Create Credentials Profile**\.  
 ![\[AWS Toolkit command palette.\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/images/aws-toolkit-cmd-create-cred.png)
 
-1. When the AWS credentials and configuration files open in the VS Code IDE, add additional profiles\. 
+1. When the AWS credentials and configuration files open in the VS Code editor, add additional profiles\. 
 
 Once your credentials are added and saved to the file, you can start using the AWS Toolkit for Visual Studio Code with AWS\. Choose the AWS icon in the **Activity bar** to see all the AWS Lambda applications and functions that are defined in your account\. 
 
