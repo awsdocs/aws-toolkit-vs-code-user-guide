@@ -4,7 +4,7 @@ AWS Toolkit for Visual Studio Code supports multiple languages that can be used 
 
 ## Configure Your Toolchain for \.NET Core<a name="setup-toolchain-for-net"></a>
 
-1. Ensure that the AWS Toolkit for Visual Studio Code is [installed](setup-toolkit.md#setup-install)\.
+1. Ensure that the Toolkit for VS Code is [installed](setup-toolkit.md#setup-install)\.
 
 1. Install the [C\# extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp)\. This extension gives VS Code the ability to debug \.NET Core applications\.
 
@@ -14,7 +14,7 @@ Open the folder that contains `template.yaml`\.
 
 ## Configure Your Toolchain for Node\.js<a name="setup-toolchain-for-node"></a>
 
-1. Ensure that the AWS Toolkit for Visual Studio Code is [installed](setup-toolkit.md#setup-install)\.
+1. Ensure that the Toolkit for VS Code is [installed](setup-toolkit.md#setup-install)\.
 
 1. Launch VS Code and open a SAM application or [create a new one](create-sam.md#create-serverless-app)\.
 **Note**  
@@ -22,7 +22,7 @@ Open the folder that contains `template.yaml`\.
 
 ## Configure Your Toolchain for Python<a name="setup-toolchain-for-python"></a>
 
-1. Ensure that the AWS Toolkit for Visual Studio Code is [installed](setup-toolkit.md#setup-install)\.
+1. Ensure that the Toolkit for VS Code is [installed](setup-toolkit.md#setup-install)\.
 
 1. Install the [Python extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-python.python)\. This extension gives VS Code the ability to debug Python applications\.
 

@@ -6,6 +6,7 @@ The following table describes important changes in each release of the AWS Toolk
 
 | Change | Description | Date | 
 | --- |--- |--- |
+| [User Guide for the AWS Toolkit for Visual Studio Code](welcome.md) | Updated the document structure for clarity and ease of use\. | July 3, 2019 | 
 | [Setting Up the Toolkit for VS Code](setup-toolkit.md) | Added information about installing language SDKs to support various toolchains\. | June 12, 2019 | 
 | [Configure Your Toolchain](setup-toolchain.md) | Added information about configuring various toolchains\. | June 12, 2019 | 
 | [Initial Release](#doc-history) | Initial release of the user guide for AWS Toolkit for Visual Studio Code\. | March 28, 2019 | 
