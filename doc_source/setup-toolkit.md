@@ -7,7 +7,7 @@ This section describes how to install the AWS Toolkit for Visual Studio Code\.
 ### \(Required\)<a name="setup-prereq-req"></a>
 
 Before you can install the Toolkit for VS Code, you must have the following:
-+ **An Amazon Web Services account** – To obtain an AWS account, go to the [AWS home page](https://aws.amazon.com/), and choose **Sign Up Now**\. Signing up enables you to use all of the services offered by AWS\.
++ **An Amazon Web Services account** – To obtain an AWS account, go to the [AWS home page](https://aws.amazon.com/), and choose **Create an AWS Account** or **Complete Sign Up** \(depending on whether you've visited the site before\)\. Signing up enables you to use all of the services offered by AWS\.
 + **A supported operating system** – The Toolkit for VS Code is supported on Windows, Linux, and macOS\.
 + The relevant SDK for the language that you want to use must be installed\. You can download from the following links, or use your favorite package manager:
   + \.NET SDK: [https://dotnet.microsoft.com/download](https://dotnet.microsoft.com/download)

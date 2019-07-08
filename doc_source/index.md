@@ -22,6 +22,7 @@ Amazon's trademarks and trade dress may not be used in
    + [Connect to AWS through the AWS Toolkit for Visual Studio Code](connect.md)
    + [Changing AWS Regions](setup-region.md)
    + [Configure Your Toolchain](setup-toolchain.md)
++ [Navigating the AWS Toolkit for Visual Studio Code](toolkit-navigation.md)
 + [Working with AWS Services](working-with-aws.md)
    + [Working with AWS Serverless Applications](serverless-apps.md)
       + [Creating a Serverless Application with the AWS Toolkit for Visual Studio Code](create-sam.md)

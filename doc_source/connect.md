@@ -19,7 +19,7 @@ To interact with Amazon Web Services \(AWS\) through the AWS Toolkit for Visual 
    If you don't have a credentials profile set up, you will be prompted to set one up\. Look for a pop\-up \(or *toast*\) in the lower, right\-hand corner of the editor\. Choose **Yes** and follow the setup wizard to enter a profile name, your access key ID, and your secret access key\. For details of how to do this, see [Create the Shared AWS Credentials File](setup-credentials.md#create-shared-cred-file)\.  
 ![\[AWS Toolkit setup profile prompt.\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/images/aws-toolkit-cred-prompt.png)
 
-1. Open the **AWS Explorer** to verify the connection\. You will see either a list of regions \(if you have made any regions visible in the Explorer\) or a message to add regions to the Explorer\.
+1. Open the **AWS: Explorer** Side Bar, which we will simply call *the **AWS Explorer***, to verify the connection\. You will see either a list of regions \(if you have made any regions visible in the Explorer\) or a message to add regions to the Explorer\.
 
    Before [adding regions](setup-region.md) to the **AWS Explorer**:  
 ![\[AWS Eplorer without regions\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/images/aws-explorer-no-regions.png)
