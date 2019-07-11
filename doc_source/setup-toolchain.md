@@ -6,9 +6,9 @@ AWS Toolkit for Visual Studio Code supports multiple languages that can be used 
 
 1. Ensure that the Toolkit for VS Code is [installed](setup-toolkit.md#setup-install)\.
 
-1. Install the [C\# extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp)\. This extension gives VS Code the ability to debug \.NET Core applications\.
+1. Install the [C\# extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp)\. This extension enables VS Code to debug \.NET Core applications\.
 
-1. Launch VS Code and open a SAM application or [create a new one](create-sam.md#create-serverless-app)\.
+1. Launch VS Code and open a SAM application or [create one](create-sam.md#create-serverless-app)\.
 **Note**  
 Open the folder that contains `template.yaml`\.
 
@@ -16,7 +16,7 @@ Open the folder that contains `template.yaml`\.
 
 1. Ensure that the Toolkit for VS Code is [installed](setup-toolkit.md#setup-install)\.
 
-1. Launch VS Code and open a SAM application or [create a new one](create-sam.md#create-serverless-app)\.
+1. Launch VS Code and open a SAM application or [create one](create-sam.md#create-serverless-app)\.
 **Note**  
 Open the folder that contains `template.yaml`\.
 
@@ -24,13 +24,13 @@ Open the folder that contains `template.yaml`\.
 
 1. Ensure that the Toolkit for VS Code is [installed](setup-toolkit.md#setup-install)\.
 
-1. Install the [Python extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-python.python)\. This extension gives VS Code the ability to debug Python applications\.
+1. Install the [Python extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-python.python)\. This extension enables VS Code to debug Python applications\.
 
-1. Launch VS Code and open a SAM application or [create a new one](create-sam.md#create-serverless-app)\.
+1. Launch VS Code and open a SAM application or [create one](create-sam.md#create-serverless-app)\.
 **Note**  
 Open the folder that contains `template.yaml`\.
 
-1. Open a terminal at the root of your application and configure `virtualenv` by running `python -m venv ./.venv`\.
+1. Open a terminal at the root of your application, and configure `virtualenv` by running `python -m venv ./.venv`\.
 **Note**  
 `virtualenv` needs to be configured only once per system\.
 

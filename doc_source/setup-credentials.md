@@ -7,7 +7,7 @@ Some features of the Toolkit for VS Code, such as creating a serverless applicat
 
 ## Get Your AWS Access Keys<a name="setup-credentials-get-access-keys"></a>
 
-If you do not already have appropriate AWS access keys stored in your *shared AWS credentials file*, you must do so now\.
+If you do not already have appropriate AWS access keys to store in your *shared AWS credentials file*, you must get them now\.
 
 To do so, see the previous topic called [Obtain AWS Access Keys](obtain-credentials.md)\.
 
@@ -20,15 +20,16 @@ The shared credentials file can contain the credentials for more than one AWS ac
 If you have already set your AWS credentials in some way, for example, by using the [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html), the Toolkit for VS Code will automatically detect those credentials and make them available to the toolkit\. If you haven't already set your AWS credentials, or if you wish to include additional AWS credentials in your environment, or if you need to update an existing credentials profile, you can do so through the Toolkit for VS Code, as shown below\.
 
 **Note**  
-As an alternative to the procedures shown below, the AWS CLI command `[aws configure](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html)` can be used to add AWS credentials to your environment\. This command can also be used to set the default region, which is needed for certain operations such as creating a serverless application\.
+As an alternative to the following procedures, the AWS CLI command `[aws configure](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html)` can be used to add AWS credentials to your environment\. This command can also be used to set the default AWS Region, which is needed for certain operations such as creating a serverless application\.
 
 ### Create the Shared AWS Credentials File<a name="create-shared-cred-file"></a>
 
-\(If you already have a shared AWS credentials file, see the [next procedure](#update-shared-cred-file) instead\.\)
+**Note**  
+If you already have a shared AWS credentials file, see the [next procedure](#update-shared-cred-file) instead\.
 
 1. Open VS Code\.
 
-1. To open the **Command Palette**, on the menu bar, choose **View** ≫ **Command Palette**, or use the following shortcut keys\. 
+1. To open the **Command Palette**, on the menu bar, choose **View**, **Command Palette**, or use the following shortcut keys: 
    + Windows and Linux – Press **Ctrl\+Shift\+P**\.
    + macOS – Press **Shift\+Command\+P**\.
 
@@ -48,11 +49,11 @@ Once you complete this procedure, you can verify the shared AWS credentials file
 
 ### Update Your Shared AWS Credentials File<a name="update-shared-cred-file"></a>
 
-\(To add a new profile to your existing shared AWS credentials file or to update an existing profile\.\)
+Follow these steps to add a new profile to your existing shared AWS credentials file or to update an existing profile\.
 
 1. Open VS Code\.
 
-1. To open the **Command Palette**, on the menu bar, choose **View** ≫ **Command Palette**, or use the following shortcut keys\. 
+1. To open the **Command Palette**, on the menu bar, choose **View**, **Command Palette**, or use the following shortcut keys: 
    + Windows and Linux – Press **Ctrl\+Shift\+P**\.
    + macOS – Press **Shift\+Command\+P**\.
 

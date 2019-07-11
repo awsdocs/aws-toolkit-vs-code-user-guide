@@ -5,12 +5,12 @@ Using the Toolkit for VS Code, you can interact with [AWS Lambda](https://aws.am
 For more information about Lambda, see the [AWS Lambda Developer Guide](https://docs.aws.amazon.com/lambda/latest/dg/)\. 
 
 **Note**  
-If you have already created Lambda functions by using the AWS Console or some other means, you can invoke them from here\. If you want to create a new function \(using VS Code\) that you can deploy to AWS Lambda, you must first [create a serverless application](create-sam.md)\.
+If you have already created Lambda functions by using the AWS Management Console or some other means, you can invoke them from here\. If you want to create a new function \(using VS Code\) that you can deploy to AWS Lambda, you must first [create a serverless application](create-sam.md)\.
 
 ## Prerequisites<a name="remote-lambda-prereq"></a>
 
 \(In addition to those specified in the [Getting Started prerequisites](setup-toolkit.md#setup-prereq)\.\)
-+ The AWS credentials that you configured in [Setting Up Your AWS Credentials](setup-credentials.md) must include appropriate read\-write access to the AWS Lambda service\. If, in the **AWS Explorer**, under **Lambda**, you see a message similar to "Error loading Lambda resources", check the permissions attached to those credentials\. Changes that you make to permissions will take a few minutes to affect the **AWS Explorer** in VS Code\.
++ The AWS credentials that you configured in [Setting Up Your AWS Credentials](setup-credentials.md) must include appropriate read/write access to the AWS Lambda service\. If, in the **AWS Explorer**, under **Lambda**, you see a message similar to "Error loading Lambda resources", check the permissions attached to those credentials\. Changes that you make to permissions will take a few minutes to affect the **AWS Explorer** in VS Code\.
 
 ## Invoke a Lambda Function<a name="invoke-lam-func"></a>
 
@@ -18,7 +18,7 @@ You can invoke a Lambda function on AWS from the AWS Toolkit for Visual Studio C
 
 ****
 
-1. In the **AWS Explorer**, choose the name of the Lambda function you want to invoke and open its context menu\.  
+1. In the **AWS Explorer**, choose the name of the Lambda function you want to invoke, and then open its context menu\.  
 ![\[Context menu for Lambda function.\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/images/lambda-func-invoke-menu.png)
 
 1. Choose **Invoke on AWS**\.
@@ -39,12 +39,12 @@ Do not use this procedure to delete Lambda functions that are associated with [A
 
 ****
 
-1. In the **AWS Explorer**, choose the name of the Lambda function you want to delete and open its context menu\.  
+1. In the **AWS Explorer**, choose the name of the Lambda function you want to delete, and then open its context menu\.  
 ![\[Context menu for Lambda function.\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/images/lambda-func-delete-menu.png)
 
 1. Choose **Delete**\.
 
 1. Choose **Yes** to conﬁrm the delete\.  
-![\[Delete Lambda confirmation dialogue\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/images/lambda-delete-confirm.png)
+![\[Delete Lambda confirmation dialog\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/images/lambda-delete-confirm.png)
 
-Once the function is deleted, you will no longer see it listed in the **AWS Explorer**\.
+Once the function is deleted, it is no longer listed in the **AWS Explorer**\.
