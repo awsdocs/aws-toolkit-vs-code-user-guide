@@ -52,5 +52,15 @@ To supply event information, select the **Configure** link from the CodeLens lin
 
 1. After the local run is complete, the **OUTPUT** tab or the **TERMINAL** tab will show the output\.  
 ![\[Output of running the application locally.\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/images/sam-run-locally.png)
+**Note**  
+For Windows users: If you encounter a Docker mounting error during this process, you might need to refresh the credentials for your shared drives \(in Docker Settings\)\. A Docker mounting error might something like the following:  
+
+   ```
+   Fetching lambci/lambda:nodejs10.x Docker container image......
+   2019-07-12 13:36:58 Mounting C:\Users\<username>\AppData\Local\Temp\ ... as /var/task:ro,delegated inside runtime container
+   Traceback (most recent call last):
+   ...
+   requests.exceptions.HTTPError: 500 Server Error: Internal Server Error ...
+   ```
 
 1. Choose the **Debug Locally** CodeLens to debug your application\. When in debug mode, you can set breakpoints, step through each line, inspect variables and change values just as you would for any other application\.
