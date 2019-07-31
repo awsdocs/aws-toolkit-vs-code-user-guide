@@ -1,12 +1,11 @@
 # Deploying a Serverless Application with the AWS Toolkit for Visual Studio Code<a name="deploy-serverless-app"></a>
 
-This example shows how to deploy the serverless application created in the previous topic to AWS using the AWS Toolkit for Visual Studio Code\.
+This example shows how to deploy the serverless application that was created in the previous topic \([Creating a Serverless Application](create-sam.md)\) to AWS using the AWS Toolkit for Visual Studio Code\.
 
 ## Prerequisites<a name="deploy-sam-prereq"></a>
-
-\(In addition to those specified in the [Getting Started prerequisites](setup-toolkit.md#setup-prereq)\.\)
-+ The Amazon S3 bucket name that you choose must be unique\.
-+ The AWS credentials that you configured in [Setting Up Your AWS Credentials](setup-credentials.md) must include appropriate read/write access to the following services: Amazon S3, AWS CloudFormation, AWS Lambda, Amazon API Gateway\.
++ If you haven't already done so, satisfy the prerequisites specified in [Installing the Toolkit for VS Code](setup-toolkit.md#setup-prereq)\.
++ Be sure to choose a globally unique Amazon S3 bucket name\.
++ For the AWS credentials that you configured in [Setting Up Your AWS Credentials](setup-credentials.md), include the appropriate read/write access to the following services: Amazon S3, AWS CloudFormation, AWS Lambda, and Amazon API Gateway\.
 
 ## Deploy a Serverless Application<a name="deploy-sam-proc"></a>
 
@@ -23,7 +22,7 @@ This example shows how to deploy the serverless application created in the previ
 
 1. Enter the name of an Amazon S3 bucket this deployment can use\. The bucket must be in the Region you're deploying to\.
 **Warning**  
-The name must be globally unique across all existing bucket names in Amazon S3\. Therefore, you should add a unique identifier to the name given in the example below \(or choose a different name\)\.  
+The Amazon S3 bucket name must be globally unique across all existing bucket names in Amazon S3\. Therefore, you should add a unique identifier to the name given in the following example \(or choose a different name\)\.  
 ![\[Choose the serverless application bucket.\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/images/sam-deploy-bucket.png)
 
 1. Enter a name for the deployed stack, either a new stack name or an existing stack name\.  
@@ -32,4 +31,4 @@ The name must be globally unique across all existing bucket names in Amazon S3\.
 1. Verify the success of the deployment on the **OUTPUT** tab of VS Code\.  
 ![\[Screenshot of the output from deploying a serverless application.\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/images/sam-deploy-progress.png)
 
-When the deployment is complete, you'll see your application listed in the AWS Explorer\. To learn how to invoke the Lambda function that was created as part of the application, see [Interacting with Remote Lambda Functions](remote-lambda.md)\.
+When the deployment is complete, you'll see your application listed in the **AWS Explorer**\. To learn how to invoke the Lambda function that was created as part of the application, see [Interacting with Remote Lambda Functions](remote-lambda.md)\.

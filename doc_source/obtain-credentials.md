@@ -1,11 +1,11 @@
-# Obtain AWS Access Keys<a name="obtain-credentials"></a>
+# Obtaining AWS Access Keys<a name="obtain-credentials"></a>
 
-To access Amazon Web Services \(AWS\) with the AWS Toolkit for Visual Studio Code, you must configure the toolkit with AWS account credentials\. In order to do so, you must first obtain appropriate AWS access keys\.
+To access Amazon Web Services \(AWS\) with the AWS Toolkit for Visual Studio Code, you must configure the toolkit with AWS account credentials\. To do that, you must first obtain appropriate AWS access keys\.
 
 **Note**  
-You can skip this topic if you already have appropriate AWS access keys stored in your *shared AWS credentials file*\. If this is the case for you, move on to [adding the access keys to the Toolkit for VS Code](setup-credentials.md#setup-credentials-set-access-keys)\.
+If you already have appropriate AWS access keys stored in your *shared AWS credentials file*, you can skip ahead to [adding the access keys to the Toolkit for VS Code](setup-credentials.md#setup-credentials-set-access-keys)\.
 
-For details about users and credentials that are out of scope for this guide, see the following resources:
+For more information about users and credentials that is out of scope for this guide, see the following resources:
 + [AWS Security Credentials](https://docs.aws.amazon.com/general/latest/gr/aws-security-credentials.html) in the *Amazon Web Services General Reference*
 + [Overview of Identity Management: Users](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction_identity-management.html) in the *IAM User Guide*
 
@@ -16,7 +16,7 @@ Access keys are the credentials that identify you to AWS and enable you to progr
 **Warning**  
 Because the root user is essentially an administrator with full access to services and resources, we recommend that you instead create an IAM user with only those permissions needed to perform the required tasks\. Then, for your credentials, you can use an access key that is associated with that user\. For details, see [Creating an IAM User in Your AWS Account](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html) in the *IAM User Guide*\.
 
-An access key consists of an *access key ID*, which is analogous to a user name, and a *secret access key*, which is analogous to a password\. This access key is used to sign programmatic requests that you make to AWS\. If you don't have access keys, you can create them by using the AWS Management Console\. [We recommend that you use access keys for an IAM user instead of the keys for your account's root user](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#create-iam-users)\. 
+An access key consists of an *access key ID*, which is similar to a user name, and a *secret access key*, which is similar to a password\. This access key is used to sign programmatic requests that you make to AWS\. If you don't have access keys, you can create them by using the AWS Management Console\. [We recommend that you use access keys for an IAM user instead of the keys for your account's root user](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#create-iam-users)\. 
 
 **Note**  
 To create access keys, you must have permissions to perform the required IAM actions\. For more information, see [Granting IAM User Permissions to Manage Password Policy and Credentials](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_delegate-permissions.html) in the *IAM User Guide*\.
@@ -29,7 +29,7 @@ To create access keys, you must have permissions to perform the required IAM act
 
 1. Choose your IAM user name \(not the check box\) to view its details\.
 
-1. Choose the **Security Credentials** tab, and then choose **Create access key**\.
+1. On the **Security Credentials** tab, choose **Create access key**\.
 
 1. To see the new access key, choose **Show**\. The credentials resemble the following:
    + Access key ID: AKIAIOSFODNN7EXAMPLE
