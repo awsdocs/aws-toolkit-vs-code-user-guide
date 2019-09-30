@@ -36,4 +36,4 @@ Before you can use certain features of the Toolkit for VS Code, you must have th
 
 1. Once installed, if you're prompted to restart the editor, choose **Reload Required** to finish installation\.
 
-After you install the Toolkit for VS Code, you should configure your AWS [credentials](setup-credentials.md) to enable you to access your AWS resources from within VS Code\.
+After you install the Toolkit for VS Code, you should configure your [credentials](establish-credentials.md) to enable you to access your AWS resources from within VS Code\.

@@ -1,6 +1,6 @@
 # Navigating the AWS Toolkit for Visual Studio Code<a name="toolkit-navigation"></a>
 
-This topic describes how to navigate in the AWS Toolkit for Visual Studio Code\.
+This topic describes how to navigate in the AWS Toolkit for Visual Studio Code\. Be sure to first [install the toolkit](setup-toolkit.md) before reading this topic\.
 
 For general information about the Visual Studio Code user interface \(UI\), see the [UI documentation](https://code.visualstudio.com/docs/getstarted/userinterface) for VS Code\.
 

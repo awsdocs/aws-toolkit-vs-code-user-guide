@@ -22,7 +22,7 @@ If the AWS SAM CLI isn't installed, you will get an error in the lower\-right co
 1. Choose the runtime for your SAM application\. For this example, choose **nodejs10\.x**\.  
 ![\[Screenshot of the runtime selection list.\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/images/sam-create-app-runtime.png)
 
-1. Choose a location for your new project\. You can use an existing location or use **Choose a different folder** to create a location\. For this example, create a folder named `MY-SAM-APP`\.  
+1. Choose a location for your new project\. You can use an existing workspace folder if one is open, **Select a different folder** that already exists, or create a new folder and select it\. For this example, choose **There are no workspace folders open** to create a folder named `MY-SAM-APP`\.  
 ![\[Screenshot showing the location selection dialog box.\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/images/sam-create-app-location.png)
 
 1. Enter a name for your new project\. For this example, use `my-sam-app-nodejs`\. After you press **Enter**, the Toolkit for VS Code takes a few moments to create the project\.  

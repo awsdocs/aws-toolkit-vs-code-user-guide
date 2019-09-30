@@ -7,7 +7,7 @@ This is the user guide for the **AWS Toolkit for VS Code**\. If you are looking 
 The Toolkit for VS Code is an open\-source extension for the Visual Studio Code \(VS Code\) editor\. This extension makes it easier for developers to develop, debug locally, and deploy serverless applications that use Amazon Web Services \(AWS\)\.
 
 **Topics**
-+ [Getting Started with the AWS Toolkit for Visual Studio Code](getting-started.md)
++ [Setting Up the AWS Toolkit for Visual Studio Code](setting-up.md)
 + [Navigating the AWS Toolkit for Visual Studio Code](toolkit-navigation.md)
 + [Working with AWS Services](working-with-aws.md)
 

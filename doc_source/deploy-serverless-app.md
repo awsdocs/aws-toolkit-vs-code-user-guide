@@ -5,7 +5,7 @@ This example shows how to deploy the serverless application that was created in 
 ## Prerequisites<a name="deploy-sam-prereq"></a>
 + If you haven't already done so, satisfy the prerequisites specified in [Installing the Toolkit for VS Code](setup-toolkit.md#setup-prereq)\.
 + Be sure to choose a globally unique Amazon S3 bucket name\.
-+ For the AWS credentials that you configured in [Setting Up Your AWS Credentials](setup-credentials.md), include the appropriate read/write access to the following services: Amazon S3, AWS CloudFormation, AWS Lambda, and Amazon API Gateway\.
++ Ensure that the credentials you configured in [Establishing Credentials](establish-credentials.md) include the appropriate read/write access to the following services: Amazon S3, AWS CloudFormation, AWS Lambda, and Amazon API Gateway\.
 
 ## Deploy a Serverless Application<a name="deploy-sam-proc"></a>
 
@@ -30,5 +30,19 @@ The Amazon S3 bucket name must be globally unique across all existing bucket nam
 
 1. Verify the success of the deployment on the **OUTPUT** tab of VS Code\.  
 ![\[Screenshot of the output from deploying a serverless application.\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/images/sam-deploy-progress.png)
+
+   If an error occurs, a message pops up in the lower\-right that is similar to the following:  
+![\[Screenshot of an error popup while deploying a serverless application.\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/images/sam-deploy-error.png)
+
+   If this happens, check the text in the **OUTPUT** tab for details\. The following is an example of error details\.
+
+   ```
+   Error with child process: Unable to upload artifact HelloWorldFunction referenced by CodeUri parameter of HelloWorldFunction resource.
+   S3 Bucket does not exist. Execute the command to create a new bucket
+   aws s3 mb s3://pbart-my-sam-app-bucket
+   An error occurred while deploying a SAM Application. Check the logs for more information by running the "View AWS Toolkit Logs" command from the Command Palette.
+   ```
+
+   In this example, the error occurred because the Amazon S3 bucket did not exist\.
 
 When the deployment is complete, you'll see your application listed in the **AWS Explorer**\. To learn how to invoke the Lambda function that was created as part of the application, see [Interacting with Remote Lambda Functions](remote-lambda.md)\.

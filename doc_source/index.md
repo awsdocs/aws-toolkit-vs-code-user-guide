@@ -15,10 +15,13 @@ Amazon's trademarks and trade dress may not be used in
 -----
 ## Contents
 + [AWS Toolkit for Visual Studio Code](welcome.md)
-+ [Getting Started with the AWS Toolkit for Visual Studio Code](getting-started.md)
++ [Setting Up the AWS Toolkit for Visual Studio Code](setting-up.md)
    + [Installing the AWS Toolkit for Visual Studio Code](setup-toolkit.md)
-   + [Obtaining AWS Access Keys](obtain-credentials.md)
-   + [Setting Up Your AWS Credentials](setup-credentials.md)
+   + [Establishing Credentials for the AWS Toolkit for Visual Studio Code](establish-credentials.md)
+      + [Using AWS-Supported Credentials](aws-credentials.md)
+         + [Obtaining AWS Access Keys](obtain-credentials.md)
+         + [Setting Up Your AWS Credentials](setup-credentials.md)
+      + [Using an External Credential Process](external-credential-process.md)
    + [Connecting to AWS through the AWS Toolkit for Visual Studio Code](connect.md)
    + [Changing AWS Regions](setup-region.md)
    + [Configuring Your Toolchain](setup-toolchain.md)
@@ -31,4 +34,6 @@ Amazon's trademarks and trade dress may not be used in
       + [Interacting with Remote Lambda Functions](remote-lambda.md)
    + [Working with AWS CloudFormation Stacks](cloudformation.md)
       + [Deleting an AWS CloudFormation Stack](cloudformation-delete.md)
+   + [Working with Amazon Elastic Container Service](ecs.md)
+      + [Using IntelliSense for Amazon ECS Task Definition Files](ecs-definition-files.md)
 + [Document History for the AWS Toolkit for Visual Studio Code User Guide](doc-history.md)

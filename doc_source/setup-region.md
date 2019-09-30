@@ -11,7 +11,7 @@ When you set up your credentials, the AWS Toolkit for Visual Studio Code automat
 1. Search for **AWS** and choose **AWS: Show Region in the Explorer**\.  
 ![\[AWS Toolkit Command Palette showing Regions.\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/images/aws-toolkit-show-regions.png)
 
-1. Choose the Region that you want to to add to the **AWS Explorer**\.  
+1. Choose the Region that you want to add to the **AWS Explorer**\.  
 ![\[AWS Regions menu.\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/images/aws-toolkit-select-region.png)
 **Note**  
 The list contains only those Regions that are available to add to the **AWS Explorer**\. Regions you've already added don't appear in the list\.

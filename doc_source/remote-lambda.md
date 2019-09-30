@@ -9,7 +9,7 @@ If you have already created Lambda functions by using the AWS Management Console
 
 ## Prerequisites<a name="remote-lambda-prereq"></a>
 + If you haven't already done so, satisfy the prerequisites specified in [Installing the Toolkit for VS Code](setup-toolkit.md#setup-prereq)\.
-+ Ensure that the AWS credentials that you configured in [Setting Up Your AWS Credentials](setup-credentials.md) include appropriate read/write access to the AWS Lambda service\. If in the **AWS Explorer**, under **Lambda**, you see a message similar to "Error loading Lambda resources", check the permissions attached to those credentials\. Changes that you make to permissions will take a few minutes to affect the **AWS Explorer** in VS Code\.
++ Ensure that the credentials you configured in [Establishing Credentials](establish-credentials.md) include appropriate read/write access to the AWS Lambda service\. If in the **AWS Explorer**, under **Lambda**, you see a message similar to "Error loading Lambda resources", check the permissions attached to those credentials\. Changes that you make to permissions will take a few minutes to affect the **AWS Explorer** in VS Code\.
 
 ## Invoke a Lambda Function<a name="invoke-lam-func"></a>
 
@@ -25,16 +25,16 @@ You can invoke a Lambda function on AWS from the Toolkit for VS Code\.
 1. In the invoke window that opens, enter the input that your Lambda function needs\. The Lambda function might, for example, require a string as an input, as shown in the text box\.  
 ![\[Field for entering Lambda input as text.\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/images/lambda-run-input.png)
 
-You'll see the output of the Lambda function run just like you would for any other project using VS Code\.
+You'll see the output of the Lambda function just like you would for any other project using VS Code\.
 
 ![\[Output of Lambda function running.\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/images/lambda-run-output.png)
 
 ## Delete a Lambda Function<a name="delete-lambda"></a>
 
-You can also delete the Lambda function using the same context menu\.
+You can also delete a Lambda function using the same context menu\.
 
 **Warning**  
-Do not use this procedure to delete Lambda functions that are associated with [AWS CloudFormation](https://docs.aws.amazon.com//cloudformation/)\. These functions must be deleted through the AWS CloudFormation stack\.
+Do not use this procedure to delete Lambda functions that are associated with [AWS CloudFormation](https://docs.aws.amazon.com//cloudformation/) \(for example, the Lambda function that was created when [creating a serverless application](create-sam.md) earlier in this guide\)\. These functions must be deleted through the AWS CloudFormation stack\.
 
 ****
 
