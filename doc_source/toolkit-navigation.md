@@ -8,9 +8,17 @@ For general information about the Visual Studio Code user interface \(UI\), see 
 
 The following are the basic UI components of the AWS Toolkit for VS Code\.
 
-![\[Screenshot of the Fundamental UI Components.\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/images/overview.png)
+### The AWS Explorer<a name="aws-explorer-basic-ui"></a>
++ The following image shows the basic UI components of the **AWS Explorer**\. See [Working with AWS Services in the AWS Explorer](aws-explorer.md) for details about what you can do with it\.  
+![\[Screenshot of the Fundamental UI Components for AWS Explorer.\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/images/overview.png)
 
-The UI element named **AWS Explorer** is more formally known as the **AWS: Explorer Side Bar**\.
+  The **AWS Explorer** is more formally known as the **AWS: Explorer Side Bar**\.
+
+### The CDK Explorer<a name="cdk-explorer-basic-ui"></a>
++ The following image shows the basic UI components of the **CDK Explorer**\. See [Working with the CDK Explorer](cdk-explorer.md) for details about what you can do with it\.  
+****    
+[\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/toolkit-navigation.html)  
+![\[Screenshot of the Fundamental UI Components for CDK Explorer.\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/images/overview-cdk.png)
 
 ## Command Locations<a name="command-locations"></a>
 
@@ -28,7 +36,7 @@ Then you can filter for "**AWS**"\.
 
 ![\[Filter for AWS.\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/images/open-command-palette-2.png)
 
-### **AWS Explorer** Menu<a name="aws-explorer"></a>
+### **AWS Explorer** Menu<a name="aws-explorer-menu"></a>
 
 The **AWS Explorer** has a **More Actions** menu that contains the most common commands for working with AWS services\.
 
