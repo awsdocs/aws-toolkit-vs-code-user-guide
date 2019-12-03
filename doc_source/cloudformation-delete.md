@@ -3,7 +3,7 @@
 You can use the AWS Toolkit for Visual Studio Code to delete AWS CloudFormation stacks\.
 
 ## Prerequisites<a name="cloudformation-delete-prereq"></a>
-+ If you haven't already done so, satisfy the prerequisites specified in [Installing the Toolkit for VS Code](setup-toolkit.md#setup-prereq)\.
++ Be sure your system meets the the prerequisites specified in [Installing the Toolkit for VS Code](setup-toolkit.md#setup-prereq)\.
 + Ensure that the credentials you configured in [Establishing Credentials](establish-credentials.md) include appropriate read/write access to the AWS CloudFormation service\. If in the **AWS Explorer**, under **CloudFormation**, you see a message similar to "Error loading CloudFormation resources", check the permissions attached to those credentials\. Changes that you make to permissions will take a few minutes to affect the **AWS Explorer** in VS Code\.
 
 ## Delete a CloudFormation Stack<a name="delete-cf-stack"></a>

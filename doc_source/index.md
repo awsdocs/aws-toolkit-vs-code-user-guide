@@ -35,6 +35,8 @@ Amazon's trademarks and trade dress may not be used in
          + [Interacting with Remote Lambda Functions](remote-lambda.md)
       + [Working with AWS CloudFormation Stacks](cloudformation.md)
          + [Deleting an AWS CloudFormation Stack](cloudformation-delete.md)
+      + [Working with Amazon EventBridge](eventbridge.md)
+         + [Working with Amazon EventBridge Schemas](eventbridge-schemas.md)
    + [Working with Amazon Elastic Container Service](ecs.md)
       + [Using IntelliSense for Amazon ECS Task Definition Files](ecs-definition-files.md)
    + [Working with the CDK Explorer](cdk-explorer.md)

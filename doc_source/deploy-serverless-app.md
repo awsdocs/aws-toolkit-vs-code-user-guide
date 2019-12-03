@@ -3,7 +3,7 @@
 This example shows how to deploy the serverless application that was created in the previous topic \([Creating a Serverless Application](create-sam.md)\) to AWS using the AWS Toolkit for Visual Studio Code\.
 
 ## Prerequisites<a name="deploy-sam-prereq"></a>
-+ If you haven't already done so, satisfy the prerequisites specified in [Installing the Toolkit for VS Code](setup-toolkit.md#setup-prereq)\.
++ Be sure your system meets the the prerequisites specified in [Installing the Toolkit for VS Code](setup-toolkit.md#setup-prereq)\.
 + Be sure to choose a globally unique Amazon S3 bucket name\.
 + Ensure that the credentials you configured in [Establishing Credentials](establish-credentials.md) include the appropriate read/write access to the following services: Amazon S3, AWS CloudFormation, AWS Lambda, and Amazon API Gateway\.
 

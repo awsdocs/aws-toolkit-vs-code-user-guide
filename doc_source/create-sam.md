@@ -3,7 +3,7 @@
 This example shows how to use the AWS Toolkit for Visual Studio Code to create a serverless application and then run and debug it\.
 
 ## Prerequisites<a name="create-sam-prereq"></a>
-+ If you haven't already done so, satisfy the required prerequisites specified in [Installing the Toolkit for VS Code](setup-toolkit.md#setup-prereq)\.
++ Be sure your system meets the the required prerequisites specified in [Installing the Toolkit for VS Code](setup-toolkit.md#setup-prereq)\.
 + In addition, install the AWS SAM CLI and its prerequisites\. See **AWS SAM CLI** in the [setup prerequisites](setup-toolkit.md#setup-prereq)\. If Visual Studio Code is open when you perform these installations, you might need to close and reopen the editor\.
 + Identify your default AWS Region in your AWS config file\. For more information, see [Configuration and Credential Files](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html) in the *[AWS CLI User Guide](https://docs.aws.amazon.com/cli/latest/userguide/)*\. If Visual Studio Code is open when you update your config file, you might need to close and reopen the editor\.
 + After installing your language SDK, be sure to [configure your toolchain](setup-toolchain.md)\.

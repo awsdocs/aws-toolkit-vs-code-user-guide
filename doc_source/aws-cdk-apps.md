@@ -10,7 +10,7 @@
 Use the **CDK Explorer** in the AWS Toolkit for VS Code to visualize and work with AWS CDK applications\.
 
 ## Prerequisites<a name="aws-cdk-apps-prereq"></a>
-+ If you haven't already done so, satisfy the prerequisites specified in [Installing the Toolkit for VS Code](setup-toolkit.md#setup-prereq)\.
++ Be sure your system meets the the prerequisites specified in [Installing the Toolkit for VS Code](setup-toolkit.md#setup-prereq)\.
 + Install the AWS CDK command line interface, as described in the first few sections of [Getting Started with the AWS CDK](https://docs.aws.amazon.com/cdk/latest/guide/getting_started.html) in the *AWS Cloud Development Kit \(AWS CDK\) Developer Guide*\.
 **Important**  
 The AWS CDK version must be 1\.17\.0 or later\. Use **`cdk --version`** on the command line to see what version you're running\.
