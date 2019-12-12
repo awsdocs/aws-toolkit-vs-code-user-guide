@@ -7,7 +7,7 @@
 | --- |
 | This is prerelease documentation for a feature in preview release\. It is subject to change\. | 
 
-Use the **CDK Explorer** in the AWS Toolkit for VS Code to visualize and work with AWS CDK applications\.
+Use the **AWS CDK Explorer** in the AWS Toolkit for VS Code to visualize and work with AWS CDK applications\.
 
 ## Prerequisites<a name="aws-cdk-apps-prereq"></a>
 + Be sure your system meets the the prerequisites specified in [Installing the Toolkit for VS Code](setup-toolkit.md#setup-prereq)\.
@@ -17,7 +17,7 @@ The AWS CDK version must be 1\.17\.0 or later\. Use **`cdk --version`** on the c
 
 ## Visualize an AWS CDK Application<a name="aws-cdk-apps-visualize"></a>
 
-Using the **CDK Explorer**, you can create a CDK app or load an existing one\. Then, you can visualize the [stacks](https://docs.aws.amazon.com/cdk/latest/guide/stacks.html) and [resources](https://docs.aws.amazon.com/cdk/latest/guide/resources.html) that are defined in the CDK constructs of that app\.
+Using the **AWS CDK Explorer**, you can create a CDK app or load an existing one\. Then, you can visualize the [stacks](https://docs.aws.amazon.com/cdk/latest/guide/stacks.html) and [resources](https://docs.aws.amazon.com/cdk/latest/guide/resources.html) that are defined in the CDK constructs of that app\.
 
 Perform the first several steps of the [Hello World Tutorial](https://docs.aws.amazon.com/cdk/latest/guide/getting_started.html#hello_world_tutorial) in the *AWS CDK Developer Guide*\. Stop when you get to the step called **Deploying the Stack**\. You can run the commands provided in the tutorial, for example, **`mkdir`** and **`cdk init`**, on an operating system command line or in a **Terminal** window inside the VS Code editor\.
 

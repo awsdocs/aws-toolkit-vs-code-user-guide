@@ -7,7 +7,7 @@ The following table describes important changes in each release of the AWS Toolk
 | Change | Description | Date | 
 | --- |--- |--- |
 | [Working with Amazon EventBridge Schemas](eventbridge-schemas.md) | Added support for Amazon EventBridge Schemas | December 1, 2019 | 
-| [CDK Explorer](cdk-explorer.md) | Preview release of the CDK Explorer feature\. | November 25, 2019 | 
+| [AWS CDK Explorer](cdk-explorer.md) | Preview release of the AWS CDK Explorer feature\. | November 25, 2019 | 
 | [Using an External Credential Process](external-credential-process.md) | Added information about using an external credential process to obtain AWS credentials\. | September 25, 2019 | 
 | [Using IntelliSense for Task Definition Files](ecs-definition-files.md) | IntelliSense support was added for working with Amazon ECS task Definition files\. | September 24, 2019 | 
 | [User Guide for the AWS Toolkit for Visual Studio Code](welcome.md) | Release for general availability\. | July 11, 2019 | 

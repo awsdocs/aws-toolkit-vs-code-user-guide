@@ -39,6 +39,6 @@ Amazon's trademarks and trade dress may not be used in
          + [Working with Amazon EventBridge Schemas](eventbridge-schemas.md)
    + [Working with Amazon Elastic Container Service](ecs.md)
       + [Using IntelliSense for Amazon ECS Task Definition Files](ecs-definition-files.md)
-   + [Working with the CDK Explorer](cdk-explorer.md)
+   + [Working with the AWS CDK Explorer](cdk-explorer.md)
       + [Working with AWS CDK Applications](aws-cdk-apps.md)
 + [Document History for the AWS Toolkit for Visual Studio Code User Guide](doc-history.md)

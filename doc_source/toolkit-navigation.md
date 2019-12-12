@@ -14,8 +14,8 @@ The following are the basic UI components of the AWS Toolkit for VS Code\.
 
   The **AWS Explorer** is more formally known as the **AWS: Explorer Side Bar**\.
 
-### The CDK Explorer<a name="cdk-explorer-basic-ui"></a>
-+ The following image shows the basic UI components of the **CDK Explorer**\. See [Working with the CDK Explorer](cdk-explorer.md) for details about what you can do with it\.  
+### The AWS CDK Explorer<a name="cdk-explorer-basic-ui"></a>
++ The following image shows the basic UI components of the **AWS CDK Explorer**\. See [Working with the AWS CDK Explorer](cdk-explorer.md) for details about what you can do with it\.  
 ****    
 [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/toolkit-navigation.html)  
 ![\[Screenshot of the Fundamental UI Components for CDK Explorer.\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/images/overview-cdk.png)
