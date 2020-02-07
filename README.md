@@ -1,6 +1,6 @@
 ## User Guide for the AWS Toolkit for Visual Studio Code
 
-The open source version of the AWS Toolkit for Visual Studio Code user guide.
+The open source version of the AWS Toolkit for Visual Studio Code user guide. For easy navigation, start in the [index](doc_source/index.md).
 
 This repository contains source content for the official [AWS Toolkit for Visual Studio Code User Guide](https://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/welcome.html).
 
