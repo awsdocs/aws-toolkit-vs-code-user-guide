@@ -34,7 +34,7 @@ You'll see the output of the Lambda function just like you would for any other p
 You can also delete a Lambda function using the same context menu\.
 
 **Warning**  
-Do not use this procedure to delete Lambda functions that are associated with [AWS CloudFormation](https://docs.aws.amazon.com//cloudformation/) \(for example, the Lambda function that was created when [creating a serverless application](create-sam.md) earlier in this guide\)\. These functions must be deleted through the AWS CloudFormation stack\.
+Do not use this procedure to delete Lambda functions that are associated with [AWS CloudFormation](https://docs.aws.amazon.com/cloudformation/) \(for example, the Lambda function that was created when [creating a serverless application](create-sam.md) earlier in this guide\)\. These functions must be deleted through the AWS CloudFormation stack\.
 
 ****
 

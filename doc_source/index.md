@@ -1,7 +1,7 @@
 # AWS Toolkit for VS Code User Guide
 
 -----
-*****Copyright &copy; 2019 Amazon Web Services, Inc. and/or its affiliates. All rights reserved.*****
+*****Copyright &copy; 2020 Amazon Web Services, Inc. and/or its affiliates. All rights reserved.*****
 
 -----
 Amazon's trademarks and trade dress may not be used in 
@@ -41,4 +41,12 @@ Amazon's trademarks and trade dress may not be used in
       + [Using IntelliSense for Amazon ECS Task Definition Files](ecs-definition-files.md)
    + [Working with the AWS CDK Explorer](cdk-explorer.md)
       + [Working with AWS CDK Applications](aws-cdk-apps.md)
++ [Security for this AWS Product or Service](security.md)
+   + [Data Protection in this AWS Product or Service](data-protection.md)
+   + [Identity and Access Management for this AWS Product or Service](security-iam.md)
+   + [Logging and Monitoring in this AWS Product or Service](logging-and-monitoring.md)
+   + [Compliance Validation for this AWS Product or Service](compliance-validation.md)
+   + [Resilience for this AWS Product or Service](disaster-recovery-resiliency.md)
+   + [Infrastructure Security for this AWS Product or Service](infrastructure-security.md)
+   + [Configuration and Vulnerability Analysis in this AWS Product or Service](configuration-and-vulnerability-analysis.md)
 + [Document History for the AWS Toolkit for Visual Studio Code User Guide](doc-history.md)

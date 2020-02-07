@@ -27,7 +27,7 @@ After you complete that first part of the CDK tutorial, load the resulting folde
 
 The tree view gives you a visual representation of the information in the `tree.json` file of the CDK app, which is created when you run the **`cdk synth`** command\. The file is located in the app's `cdk.out` directory\.
 
-### Important Notes<a name="w4aac11c11c15c13c13"></a>
+### Important Notes<a name="w6aac11c11c15c13c13"></a>
 + When you load CDK apps into the VS Code editor, you can load multiple folders at one time\. Each folder can contain multiple CDK apps\. This is shown in the preceding image\.
 + When you perform the first several steps of the tutorial, you might notice that the last command you execute is **`cdk synth`**, which generates the `tree.json` file\. If you change aspects of a CDK app, for example, add more resources, you need to execute that command again to see the changes reflected in the tree view\.
 

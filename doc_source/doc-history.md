@@ -6,6 +6,7 @@ The following table describes important changes in each release of the AWS Toolk
 
 | Change | Description | Date | 
 | --- |--- |--- |
+| [Security Content](security.md) | Added security content\. | February 6, 2020 | 
 | [Working with Amazon EventBridge Schemas](eventbridge-schemas.md) | Added support for Amazon EventBridge Schemas | December 1, 2019 | 
 | [AWS CDK Explorer](cdk-explorer.md) | Preview release of the AWS CDK Explorer feature\. | November 25, 2019 | 
 | [Using an External Credential Process](external-credential-process.md) | Added information about using an external credential process to obtain AWS credentials\. | September 25, 2019 | 
