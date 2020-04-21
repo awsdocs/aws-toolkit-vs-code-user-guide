@@ -16,3 +16,4 @@ Some important points:
 + [Working with AWS Lambda Functions](building-lambda.md)
 + [Working with AWS CloudFormation Stacks](cloudformation.md)
 + [Working with Amazon EventBridge](eventbridge.md)
++ [Working with AWS Step Functions](stepfunctions.md)
