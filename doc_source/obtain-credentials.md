@@ -1,4 +1,4 @@
-# Obtaining AWS Access Keys<a name="obtain-credentials"></a>
+# Obtaining AWS access keys<a name="obtain-credentials"></a>
 
 To access Amazon Web Services \(AWS\) with the AWS Toolkit for Visual Studio Code, you must configure the toolkit with AWS account credentials\. To do this with AWS\-supported credentials, you must first obtain appropriate AWS access keys\.
 
@@ -6,7 +6,7 @@ For more information about users and credentials that is out of scope for this g
 + [AWS Security Credentials](https://docs.aws.amazon.com/general/latest/gr/aws-security-credentials.html) in the *Amazon Web Services General Reference*
 + [Overview of Identity Management: Users](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction_identity-management.html) in the *IAM User Guide*
 
-## What are AWS Access Keys<a name="obtain-credentials-what-are-keys"></a>
+## What are AWS access keys<a name="obtain-credentials-what-are-keys"></a>
 
 Access keys are the credentials that identify you to AWS and enable you to programmatically access AWS services and resources\. Access keys can be associated with your AWS account \(the account's "root user"\) or with users that you create with AWS Identity and Access Management \(IAM\)\.
 
@@ -18,7 +18,7 @@ An access key consists of an *access key ID*, which is similar to a user name, a
 **Note**  
 To create access keys, you must have permissions to perform the required IAM actions\. For more information, see [Granting IAM User Permissions to Manage Password Policy and Credentials](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_delegate-permissions.html) in the *IAM User Guide*\.
 
-## Get Your AWS Access Keys<a name="obtain-credentials-get-access-keys"></a>
+## Get your AWS access keys<a name="obtain-credentials-get-access-keys"></a>
 
 1. Open the IAM console at [https://console\.aws\.amazon\.com/iam/](https://console.aws.amazon.com/iam/)\.
 
@@ -37,4 +37,4 @@ To create access keys, you must have permissions to perform the required IAM act
 Keep the keys confidential to protect your AWS account, and never email them\. Do not share them outside of your organization, even if an inquiry appears to come from AWS or Amazon\.com\. *No one who legitimately represents Amazon will ever ask you for your secret key*\.
 You can't recover the secret key if you lose it\. Instead, for security reasons, you must create a new key pair and delete the old pair\.
 
-After you have obtained your AWS access keys, you can use the AWS Toolkit for VS Code to store them in your shared AWS config file or your shared AWS credentials file\. See [Add Your AWS Access Keys to Your Environment](setup-credentials.md#setup-credentials-set-access-keys) to learn how\.
+After you have obtained your AWS access keys, you can use the AWS Toolkit for VS Code to store them in your shared AWS config file or your shared AWS credentials file\. See [Add your AWS access keys to your environment](setup-credentials.md#setup-credentials-set-access-keys) to learn how\.

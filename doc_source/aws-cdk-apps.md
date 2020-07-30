@@ -1,4 +1,4 @@
-# Working with AWS CDK Applications<a name="aws-cdk-apps"></a>
+# Working with AWS CDK applications<a name="aws-cdk-apps"></a>
 
 
 ****  
@@ -15,7 +15,7 @@ Use the **AWS CDK Explorer** in the AWS Toolkit for VS Code to visualize and wor
 **Important**  
 The AWS CDK version must be 1\.17\.0 or later\. Use **`cdk --version`** on the command line to see what version you're running\.
 
-## Visualize an AWS CDK Application<a name="aws-cdk-apps-visualize"></a>
+## Visualize an AWS CDK application<a name="aws-cdk-apps-visualize"></a>
 
 Using the **AWS CDK Explorer**, you can create a CDK app or load an existing one\. Then, you can visualize the [stacks](https://docs.aws.amazon.com/cdk/latest/guide/stacks.html) and [resources](https://docs.aws.amazon.com/cdk/latest/guide/resources.html) that are defined in the CDK constructs of that app\.
 
@@ -27,11 +27,11 @@ After you complete that first part of the CDK tutorial, load the resulting folde
 
 The tree view gives you a visual representation of the information in the `tree.json` file of the CDK app, which is created when you run the **`cdk synth`** command\. The file is located in the app's `cdk.out` directory\.
 
-### Important Notes<a name="w6aac11c11c15c13c13"></a>
-+ When you load CDK apps into the VS Code editor, you can load multiple folders at one time\. Each folder can contain multiple CDK apps\. This is shown in the preceding image\.
+### Important notes<a name="important-notes"></a>
++ When you load CDK apps into the VS Code editor, you can load multiple folders at one time\. Each folder can contain multiple CDK apps, as shown in the preceding image\. The AWS CDK Explorer finds apps in the project root directory and its direct subdirectories\.
 + When you perform the first several steps of the tutorial, you might notice that the last command you execute is **`cdk synth`**, which generates the `tree.json` file\. If you change aspects of a CDK app, for example, add more resources, you need to execute that command again to see the changes reflected in the tree view\.
 
-## Perform Other Operations on an AWS CDK App<a name="aws-cdk-apps-other-tasks"></a>
+## Perform other operations on an AWS CDK app<a name="aws-cdk-apps-other-tasks"></a>
 
 You can use the VS Code editor to perform other operations on a CDK app, just as you would by using the command line of your operating system or other tools\. For example, you can update the code files in the editor and deploy the app by using a VS Code **Terminal** window\.
 

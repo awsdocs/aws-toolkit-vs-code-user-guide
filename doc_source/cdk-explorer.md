@@ -17,4 +17,4 @@ This section provides information about how to access and use the **AWS CDK Expl
 You can disable the **AWS CDK Explorer** so that it isn't displayed in the VS Code editor\. In the **File** menu, choose **Preferences**, **Settings**\. Then enter "cdk" into the **Search** box and clear the **Enable the AWS CDK Explorer** box\.
 
 **Topics**
-+ [Working with AWS CDK Applications](aws-cdk-apps.md)
++ [Working with AWS CDK applications](aws-cdk-apps.md)

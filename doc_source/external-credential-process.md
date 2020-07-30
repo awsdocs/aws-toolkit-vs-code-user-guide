@@ -1,4 +1,4 @@
-# Using an External Credential Process<a name="external-credential-process"></a>
+# Using an external credential process<a name="external-credential-process"></a>
 
 If you have a process to generate or lookup credentials that isn't directly supported by AWS, you can configure the AWS Toolkit for VS Code to use that process instead of any [stored AWS credentials](aws-credentials.md)\.
 

@@ -9,7 +9,7 @@ If you have already created Lambda functions by using the AWS Management Console
 
 ## Prerequisites<a name="remote-lambda-prereq"></a>
 + Be sure your system meets the the prerequisites specified in [Installing the Toolkit for VS Code](setup-toolkit.md#setup-prereq)\.
-+ Ensure that the credentials you configured in [Establishing Credentials](establish-credentials.md) include appropriate read/write access to the AWS Lambda service\. If in the **AWS Explorer**, under **Lambda**, you see a message similar to "Error loading Lambda resources", check the permissions attached to those credentials\. Changes that you make to permissions will take a few minutes to affect the **AWS Explorer** in VS Code\.
++ Ensure that the credentials you configured in [Establishing credentials](establish-credentials.md) include appropriate read/write access to the AWS Lambda service\. If in the **AWS Explorer**, under **Lambda**, you see a message similar to "Error loading Lambda resources", check the permissions attached to those credentials\. Changes that you make to permissions will take a few minutes to affect the **AWS Explorer** in VS Code\.
 
 ## Invoke a Lambda Function<a name="invoke-lam-func"></a>
 

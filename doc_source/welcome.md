@@ -11,7 +11,7 @@ The Toolkit for VS Code is an open\-source extension for the Visual Studio Code 
 + [Navigating the AWS Toolkit for Visual Studio Code](toolkit-navigation.md)
 + [Working with AWS Services](working-with-aws.md)
 
-## Related Information<a name="additional-resources"></a>
+## Related information<a name="additional-resources"></a>
 
  Use the following resources to access the source code for the toolkit or view currently open issues\. 
 + [Source Code](https://github.com/aws/aws-toolkit-vscode)

@@ -1,13 +1,13 @@
-# Deploying a Serverless Application with the AWS Toolkit for Visual Studio Code<a name="deploy-serverless-app"></a>
+# Deploying serverless applications with the AWS Toolkit for Visual Studio Code<a name="deploy-serverless-app"></a>
 
-This example shows how to deploy the serverless application that was created in the previous topic \([Creating a Serverless Application](create-sam.md)\) to AWS using the AWS Toolkit for Visual Studio Code\.
+This example shows how to deploy the serverless application that was created in the previous topic \([Creating serverless applications](create-sam.md)\) to AWS using the AWS Toolkit for Visual Studio Code\.
 
 ## Prerequisites<a name="deploy-sam-prereq"></a>
 + Be sure your system meets the the prerequisites specified in [Installing the Toolkit for VS Code](setup-toolkit.md#setup-prereq)\.
 + Be sure to choose a globally unique Amazon S3 bucket name\.
-+ Ensure that the credentials you configured in [Establishing Credentials](establish-credentials.md) include the appropriate read/write access to the following services: Amazon S3, AWS CloudFormation, AWS Lambda, and Amazon API Gateway\.
++ Ensure that the credentials you configured in [Establishing credentials](establish-credentials.md) include the appropriate read/write access to the following services: Amazon S3, AWS CloudFormation, AWS Lambda, and Amazon API Gateway\.
 
-## Deploy a Serverless Application<a name="deploy-sam-proc"></a>
+## Deploying serverless applications<a name="deploy-sam-proc"></a>
 
 1. To open the **Command Palette**, choose **View**, **Command Palette**, and then enter **AWS**\.
 

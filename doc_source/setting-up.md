@@ -4,7 +4,7 @@ This section helps you set up the AWS Toolkit for Visual Studio Code\. It provid
 
 **Topics**
 + [Installing the AWS Toolkit for Visual Studio Code](setup-toolkit.md)
-+ [Establishing Credentials for the AWS Toolkit for Visual Studio Code](establish-credentials.md)
++ [Establishing credentials for the AWS Toolkit for Visual Studio Code](establish-credentials.md)
 + [Connecting to AWS through the AWS Toolkit for Visual Studio Code](connect.md)
 + [Changing AWS Regions](setup-region.md)
-+ [Configuring Your Toolchain](setup-toolchain.md)
++ [Configuring your toolchain](setup-toolchain.md)

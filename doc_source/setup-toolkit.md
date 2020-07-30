@@ -18,7 +18,7 @@ Before you can use certain features of the Toolkit for VS Code, you must have th
   + \.NET SDK: [https://dotnet.microsoft.com/download](https://dotnet.microsoft.com/download)
   + Node\.js SDK: [https://nodejs.org/en/download](https://nodejs.org/en/download)
   + Python SDK: [https://www.python.org/downloads](https://www.python.org/downloads)
-+ **AWS SAM CLI** – This is an AWS CLI tool that helps you develop, test, and analyze your serverless applications locally\. This isn't required for installing the toolkit\. However, we recommend that you install it \(and Docker, described next\) because it's required for any AWS Serverless Application Model \(AWS SAM\) functionality, such as [Creating a Serverless Application](create-sam.md)\.
++ **AWS SAM CLI** – This is an AWS CLI tool that helps you develop, test, and analyze your serverless applications locally\. This isn't required for installing the toolkit\. However, we recommend that you install it \(and Docker, described next\) because it's required for any AWS Serverless Application Model \(AWS SAM\) functionality, such as [Creating serverless applications](create-sam.md)\.
 
   For more information, see [Installing the AWS SAM CLI](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-install.html) in the *[AWS Serverless Application Model Developer Guide](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/what-is-sam.html)*\.
 + **Docker** – The AWS SAM CLI requires this open\-source software container platform\. For more information and download instructions, see [Docker](https://www.docker.com/)\. 
@@ -30,7 +30,7 @@ Before you can use certain features of the Toolkit for VS Code, you must have th
 1. In the **Activity Bar** on the side of the VS Code editor, choose the **Extensions** icon\. This opens the **Extensions** view, which allows you to access the VS Code Marketplace\.  
 ![\[The Extensions icon in the VS Code Activity Bar.\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/images/aws-toolkit-extensions.png)
 
-1. In the search box for **Extensions**, search for **AWS Toolkit for Visual Studio Code**\. Choose the entry to see its details in the right pane\.
+1. In the search box for **Extensions**, search for **AWS Toolkit**\. Choose the entry to see its details in the right pane\.
 
 1. In the right pane, choose **Install**\.
 

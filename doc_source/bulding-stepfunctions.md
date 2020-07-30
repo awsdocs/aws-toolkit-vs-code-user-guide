@@ -4,21 +4,21 @@ You can use the AWS Toolkit for Visual Studio Code \(VS Code\) to perform variou
 
 **Topics**
 + [Prerequisites](#bulding-stepfunctions-pre)
-+ [Work With State Machines in VS Code](#starting-stepfunctions)
-+ [State Machine Templates](#templates-stepfunctions)
-+ [State Machine Graph Visualization](#bulding-stepfunctions-visualizations)
-+ [Code Snippets](#bulding-stepfunctions-code-snippets)
-+ [Code Completion and Validation](#bulding-stepfunctions-code-completion)
++ [Work with state machines in VS Code](#starting-stepfunctions)
++ [State machine templates](#templates-stepfunctions)
++ [State machine graph visualization](#bulding-stepfunctions-visualizations)
++ [Code snippets](#bulding-stepfunctions-code-snippets)
++ [Code completion and validation](#bulding-stepfunctions-code-completion)
 
 ## Prerequisites<a name="bulding-stepfunctions-pre"></a>
 + Be sure your system meets the prerequisites specified in [Installing the Toolkit for VS Code](setup-toolkit.md#setup-prereq), then install the toolkit\.
 + Ensure that you have configured your credentials before opening the **AWS Explorer**\.
 
-## Work With State Machines in VS Code<a name="starting-stepfunctions"></a>
+## Work with state machines in VS Code<a name="starting-stepfunctions"></a>
 
 You can use VS Code to interact with remote state machines, and develop state machines locally\. You can create or update state machines, list existing state machines, execute them, and download them\. VS Code also lets you create new state machines from templates, see a visualization of your state machine, and provides code snippets, code completion, and code validation\.
 
-### List Existing State Machines<a name="starting-sfn-list"></a>
+### List existing state machines<a name="starting-sfn-list"></a>
 
 If you've already created state machines, you can view a list of them:
 
@@ -30,7 +30,7 @@ If you've already created state machines, you can view a list of them:
 
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/images/sfn_aws-explorer.png)![\[Image NOT FOUND\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/)![\[Image NOT FOUND\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/)
 
-### Download a State Machine<a name="sfn-download"></a>
+### Download a state machine<a name="sfn-download"></a>
 
 To download a state machine:
 
@@ -42,7 +42,7 @@ To download a state machine:
 
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/images/sfn_download.png)![\[Image NOT FOUND\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/)![\[Image NOT FOUND\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/)
 
-### Create a State Machine<a name="starting-sfn-create"></a>
+### Create a state machine<a name="starting-sfn-create"></a>
 
 You can create a new state machine yourself, or you can use a template\. For more information on creating a state machine from a template, see the **State Machine Templates** section\. To create a new state machine:
 
@@ -56,7 +56,7 @@ You can create a new state machine yourself, or you can use a template\. For mor
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/images/sfn_publish_create_2.png)![\[Image NOT FOUND\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/)![\[Image NOT FOUND\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/)  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/images/sfn_publish_create_3.png)![\[Image NOT FOUND\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/)![\[Image NOT FOUND\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/)
 
-### Update a State Machine<a name="starting-sfn-update"></a>
+### Update a state machine<a name="starting-sfn-update"></a>
 
 To update a state machine:
 
@@ -69,7 +69,7 @@ To update a state machine:
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/images/sfn_publish_update_1.png)![\[Image NOT FOUND\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/)![\[Image NOT FOUND\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/)  
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/images/sfn_publish_update_2.png)![\[Image NOT FOUND\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/)![\[Image NOT FOUND\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/)
 
-### Execute a State Machine<a name="starting-sfn-execute"></a>
+### Execute a state machine<a name="starting-sfn-execute"></a>
 
 To execute a state machine:
 
@@ -83,7 +83,7 @@ To execute a state machine:
 
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/images/sfn_start_execution_2.png)![\[Image NOT FOUND\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/)![\[Image NOT FOUND\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/)
 
-## State Machine Templates<a name="templates-stepfunctions"></a>
+## State machine templates<a name="templates-stepfunctions"></a>
 
 When you create a state machine, you have the option to create it from a template\. The template contains a sample state machine definition with several commonly used states, and provides you with a starting point\. To use state machine templates:
 
@@ -95,7 +95,7 @@ When you create a state machine, you have the option to create it from a templat
 
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/images/sfn_template_2.png)![\[Image NOT FOUND\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/)![\[Image NOT FOUND\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/)
 
-## State Machine Graph Visualization<a name="bulding-stepfunctions-visualizations"></a>
+## State machine graph visualization<a name="bulding-stepfunctions-visualizations"></a>
 
 Graph visualizations let you see what your state machine looks like in graphical format\. When you create a graph visualization, another tab will open and display a visualizion of the state machine JSON\. You can then compare the state machine definition you are writing concurrently with its visualization\. As you change your state machine definition, the visualization will be updated\.
 
@@ -112,7 +112,7 @@ To create a state machine graph visualization:
 
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/images/sfn_code_and_graph.png)![\[Image NOT FOUND\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/)![\[Image NOT FOUND\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/)
 
-## Code Snippets<a name="bulding-stepfunctions-code-snippets"></a>
+## Code snippets<a name="bulding-stepfunctions-code-snippets"></a>
 
 Code snippets let you insert short sections of code\. To use code snippets:
 
@@ -130,7 +130,7 @@ Code snippets let you insert short sections of code\. To use code snippets:
 
 ![\[Image NOT FOUND\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/images/sfn_code_snippets.png)![\[Image NOT FOUND\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/)![\[Image NOT FOUND\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/)
 
-## Code Completion and Validation<a name="bulding-stepfunctions-code-completion"></a>
+## Code completion and validation<a name="bulding-stepfunctions-code-completion"></a>
 
 To see how code completion works:
 
