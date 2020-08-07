@@ -1,8 +1,8 @@
-# Configuring Your Toolchain<a name="setup-toolchain"></a>
+# Configuring your toolchain<a name="setup-toolchain"></a>
 
 The AWS Toolkit for Visual Studio Code supports multiple languages that you can use to interact with AWS\. This topic describes how to set up the toolchain for each of these languages\.
 
-## Configure a Toolchain for \.NET Core<a name="setup-toolchain-for-net"></a>
+## Configure a toolchain for \.NET Core<a name="setup-toolchain-for-net"></a>
 
 1. Ensure that you have the Toolkit for VS Code [installed](setup-toolkit.md#setup-install)\.
 
@@ -12,7 +12,7 @@ The AWS Toolkit for Visual Studio Code supports multiple languages that you can 
 
 1. Open the folder that contains `template.yaml`\.
 
-## Configure a Toolchain for Node\.js<a name="setup-toolchain-for-node"></a>
+## Configure a toolchain for Node\.js<a name="setup-toolchain-for-node"></a>
 
 1. Ensure that you have the Toolkit for VS Code [installed](setup-toolkit.md#setup-install)\.
 
@@ -20,7 +20,7 @@ The AWS Toolkit for Visual Studio Code supports multiple languages that you can 
 
 1. Open the folder that contains `template.yaml`\.
 
-## Configure a Toolchain for Python<a name="setup-toolchain-for-python"></a>
+## Configure a toolchain for Python<a name="setup-toolchain-for-python"></a>
 
 1. Ensure that you have the Toolkit for VS Code [installed](setup-toolkit.md#setup-install)\.
 
@@ -38,6 +38,6 @@ You only need to configure `virtualenv` once per system\.
    + Bash shell: `./.venv/Scripts/activate`
    + PowerShell: `./.venv/Scripts/Activate.ps1`
 
-## Using Your Toolchain<a name="use-toolchain"></a>
+## Using Your toolchain<a name="use-toolchain"></a>
 
-Once you have your toolchain set up, you can use it to [run or debug](create-sam.md#run-debug-sam-app) the AWS SAM application\.
+Once you have your toolchain set up, you can use it to [run or debug](run-debug-sam-app.md) the AWS SAM application\.

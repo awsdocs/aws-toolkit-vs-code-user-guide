@@ -16,9 +16,9 @@ To interact with Amazon Web Services \(AWS\) through the AWS Toolkit for Visual 
 1. Choose a profile from the list\.  
 ![\[AWS Toolkit command palette choose profile window\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/images/aws-toolkit-choose-profile.png)
 
-   If you don't have a credentials profile set up, you are prompted to set one up\. Look for a pop\-up in the lower\-right corner of the editor\. Choose **Yes**, and then follow the setup wizard to enter a profile name, your access key ID, and your secret access key\. For details, see [Setting Up Your AWS Credentials](setup-credentials.md)\.
+   If you don't have a credentials profile set up, you are prompted to set one up\. Look for a pop\-up in the lower\-right corner of the editor\. Choose **Yes**, and then follow the setup wizard to enter a profile name, your access key ID, and your secret access key\. For details, see [Setting up your AWS credentials](setup-credentials.md)\.
 **Note**  
-If you want to provide an external credential process instead of using AWS\-supported credentials, choose **No** and see [Using an External Credential Process](external-credential-process.md) instead\.  
+If you want to provide an external credential process instead of using AWS\-supported credentials, choose **No** and see [Using an external credential process](external-credential-process.md) instead\.  
 ![\[AWS Toolkit setup profile prompt.\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/images/aws-toolkit-cred-prompt.png)
 
 1. Open the **AWS: Explorer** Side Bar, which we call the ***AWS Explorer***, to verify the connection\. You will see either a list of AWS Regions \(if you have [made any Regions visible](setup-region.md#select-new-region) in the **AWS Explorer**\) or a message to add Regions to the **AWS Explorer**\.
@@ -29,7 +29,7 @@ If you want to provide an external credential process instead of using AWS\-supp
    After adding Regions to the **AWS Explorer**, you see something like the following\.  
 ![\[AWS Eplorer with regions\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/images/aws-explorer-with-regions.png)
 
-## Use Multiple AWS Accounts with the Toolkit<a name="using-profiles"></a>
+## Use multiple AWS accounts with the Toolkit<a name="using-profiles"></a>
 
 You might have multiple AWS accounts that you want to access from the Toolkit for VS Code\. Multiple accounts can be useful, for example, to provide developers and administrators with separate resources for development and for release or publication\.
 
