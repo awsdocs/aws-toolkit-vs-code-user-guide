@@ -1,11 +1,12 @@
 # Document history for the AWS Toolkit for Visual Studio Code User Guide<a name="doc-history"></a>
 
-**Latest major documentation update:** July 30, 2020
+**Latest major documentation update:** August 24, 2020
 
 The following table describes important changes in each release of the AWS Toolkit for Visual Studio Code\. For notification about updates to this documentation, you can subscribe to an [RSS feed](https://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/amazon-toolkit-for-vs-code-guide-doc-history.rss)\.
 
 | Change | Description | Date | 
 | --- |--- |--- |
+| [CloudWatch Logs](cloudwatchlogs.md) | Added support for CloudWatch Logs\. | August 24, 2020 | 
 | [Enhanced local debugging of AWS Serverless applications](run-debug-sam-app.md) | Added support for new local debugging features for AWS Serverless Applications\. | July 30, 2020 | 
 | [Amazon S3](s3.md) | Added support for Amazon S3\. | July 30, 2020 | 
 | [AWS Step Functions support](#doc-history) | Added support for AWS Step Functions\. | March 31, 2020 | 

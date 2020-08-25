@@ -14,6 +14,7 @@ Some important points:
 **Topics**
 + [Working with AWS Serverless Application](serverless-apps.md)
 + [Working with AWS CloudFormation stacks](cloudformation.md)
++ [Working with CloudWatch Logs by using the AWS Toolkit for Visual Studio Code](cloudwatchlogs.md)
 + [Working with AWS Lambda Functions](building-lambda.md)
 + [Working with Amazon S3](s3.md)
 + [Working with Amazon EventBridge](eventbridge.md)

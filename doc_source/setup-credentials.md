@@ -69,3 +69,33 @@ Follow these steps to add a new profile to your existing shared AWS config file 
 1. When one or both of the shared files opens in the VS Code editor, add or update a profile\.
 
 1. When you're finished updating the file, save it\.
+
+## Add additional credential profiles<a name="add-credential-profiles"></a>
+
+You can add additional profiles and credentials\. To do so, open the **Command Palette** and choose **AWS: Create Credentials Profile**\. This will open the credentials file\. On this page, you can add a new profile below your first profile, as in the example below:
+
+```
+# Amazon Web Services Credentials File used by AWS CLI, SDKs, and tools
+# This file was created by the AWS Toolkit for Visual Studio Code extension.
+#
+# Your AWS credentials are represented by access keys associated with IAM users.
+# For information about how to create and manage AWS access keys for a user, see:
+# https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html
+#
+# This credential file can store multiple access keys by placing each one in a
+# named "profile". For information about how to change the access keys in a 
+# profile or to add a new profile with a different access key, see:
+# https://docs.aws.amazon.com/cli/latest/userguide/cli-config-files.html 
+#
+[Profile1_Name]
+# The access key and secret key pair identify your account and grant access to AWS.
+aws_access_key_id = AKIAIOSFODNN7EXAMPLE
+# Treat your secret key like a password. Never share your secret key with anyone. Do 
+# not post it in online forums, or store it in a source control system. If your secret 
+# key is ever disclosed, immediately use IAM to delete the access key and secret key
+# and create a new key pair. Then, update this file with the replacement key details.
+aws_secret_access_key = wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+[Profile2_Name]
+aws_access_key_id = AKIAI44QH8DHBEXAMPLE
+aws_secret_access_key = je7MtGbClwBF/2Zp9Utk/h3yCo8nvbEXAMPLEKEY
+```
