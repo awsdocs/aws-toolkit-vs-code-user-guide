@@ -3,7 +3,7 @@
 You can use the AWS Toolkit for Visual Studio Code \(VS Code\) to perform various operations on [Amazon EventBridge schemas](https://docs.aws.amazon.com/eventbridge/latest/userguide/eventbridge-schemas.html)\.
 
 ## Prerequisites<a name="eventbridge-schemas-prereq"></a>
-+ Be sure your system meets the the prerequisites specified in [Installing the Toolkit for VS Code](setup-toolkit.md#setup-prereq)\.
++ Be sure your system meets the prerequisites specified in [Installing the Toolkit for VS Code](setup-toolkit.md#setup-prereq)\.
 + The EventBridge schema you want to work with must be available in your AWS account\. If it isn't, create or upload it\. See [Amazon EventBridge Schemas](https://docs.aws.amazon.com/eventbridge/latest/userguide/eventbridge-schemas.html) in the [Amazon EventBridge User Guide](https://docs.aws.amazon.com/eventbridge/latest/userguide/)\.
 + Open the [**AWS Explorer**](toolkit-navigation.md#aws-explorer-basic-ui) side bar\.
 
