@@ -6,6 +6,7 @@ The following table describes important changes in each release of the AWS Toolk
 
 | Change | Description | Date | 
 | --- |--- |--- |
+| [AWS Systems Manager support](systems-manager-automation-docs.md) | Added support for Systems Manager Automation documents\. | September 30, 2020 | 
 | [CloudWatch Logs](cloudwatchlogs.md) | Added support for CloudWatch Logs\. | August 24, 2020 | 
 | [Enhanced local debugging of AWS Serverless applications](run-debug-sam-app.md) | Added support for new local debugging features for AWS Serverless Applications\. | July 30, 2020 | 
 | [Amazon S3](s3.md) | Added support for Amazon S3\. | July 30, 2020 | 
