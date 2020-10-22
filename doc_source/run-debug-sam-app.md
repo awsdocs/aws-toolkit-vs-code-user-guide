@@ -91,8 +91,13 @@ The Lambda handlers that are detected by CodeLens depend on the language and run
    + `"target"` – Ensure the value is `"code"` so that a Lambda handler is directly invoked\. 
    + `"lambdaHandler"` – Enter the name of the method within your code that Lambda calls to invoke your function\. For example, for applications in JavaScript, the default is `app.lambdaHandler`\. 
    + `"projectRoot"` – Enter the path to the application file that contains the Lambda function\.
-   + `"runtime"` – Enter or confirm a valid runtime for the Lambda execution environment, for example, `"nodejs.12x"`\.  
-![\[Configuring the launch.json file for directly invoking functions.\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/images/direct_invoke_config.png)
+   + `"runtime"` – Enter or confirm a valid runtime for the Lambda execution environment, for example, `"nodejs.12x"`\.
+   + `"payload"` – Choose one the following options to define the event payload you want to provide to your Lambda function as input:
+     + `"json"`: JSON\-formatted key\-value pairs that define the event payload\.
+     + `"path"`: A path to the file that's used as the event payload\.
+
+     In the example below, the `"json"` option defines the payload\.  
+![\[Configuring the launch.json file for directly invoking functions.\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/images/direct_invoke_config_updated_with_payload_field.png)
 **Note**  
 You can use the VS Code IntelliSense feature to find and automatically complete additional debug properties for your function\. For more information, see [Configuration options for debugging serverless applications](#debug-config-ref)\.
 
@@ -125,8 +130,8 @@ With IntelliSense, you can easily find and define properties for invoking Lambda
 
 |  Property | Description | 
 | --- | --- | 
-|  `environmentVariables`  |  Passes operational parameters to your function\. For example, if you're writing to an Amazon S3 bucket, instead of hard\-coding the bucket name you're writing to, configure the bucket name as an environment variable\.   | 
-| `payload` |  Describes in a JSON file format the event that triggers a Lambda function\. You can create an event payload by running the following command in the **Terminal** of VS Code: `sam local generate-event apigateway aws-proxy`  | 
+|  `environmentVariables`  |  Passes operational parameters to your function\. For example, if you're writing to an Amazon S3 bucket, instead of hard\-coding the bucket name you're writing to, configure the bucket name as an environment variable\.  When specifying environment variables for a serverless application, you must add configurations to both the SAM template \(`template.yaml`\) and the `launch.json` file\.  Example of formatting for an environment variable in the SAM template: <pre>Resources:<br /> HelloWorldFunction:<br /> Type: AWS::Serverless::Function<br /> Properties:<br />   CodeUri: hello-world/<br />   Handler: app.lambdaHandlerN10<br />   Runtime: nodejs10.x<br />   Environment:<br />     Variables:<br />       SAMPLE1: Default Sample 1 Value</pre> Example of formatting for an environment variable in the `launch.json` file: <pre>"environmentVariables": {<br />    "SAMPLE1": "My sample 1 value"<br /> }</pre>   | 
+| `payload` |  Provides two options for the event payload you provide to your Lambda function as input\. [\[See the AWS documentation website for more details\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/run-debug-sam-app.html)  | 
 |  `memoryMB`  |  Specifies megabytes of memory provided for running an invoked Lambda function\.  | 
 | `runtime` |  Specifies the runtime used by the Lambda function\. For more information, see [AWS Lambda runtimes](https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html)\.  | 
 |  `timeoutSec`  |  Sets the time allowed, in seconds, before the debug session times out\.  | 
