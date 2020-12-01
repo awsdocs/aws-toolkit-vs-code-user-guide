@@ -8,7 +8,7 @@ The AWS Toolkit for Visual Studio Code supports multiple languages that you can 
 
 1. Install the [C\# extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp)\. This extension enables VS Code to debug \.NET Core applications\.
 
-1. Open an AWS Serverless Application Model \(AWS SAM\) application, or [create one](create-sam.md#create-serverless-app)\.
+1. Open an AWS Serverless Application Model \(AWS SAM\) application, or [create one](serverless-apps.md#serverless-apps-create)\.
 
 1. Open the folder that contains `template.yaml`\.
 
@@ -16,7 +16,7 @@ The AWS Toolkit for Visual Studio Code supports multiple languages that you can 
 
 1. Ensure that you have the Toolkit for VS Code [installed](setup-toolkit.md#setup-install)\.
 
-1. Open an AWS SAM application, or [create one](create-sam.md#create-serverless-app)\.
+1. Open an AWS SAM application, or [create one](serverless-apps.md#serverless-apps-create)\.
 
 1. Open the folder that contains `template.yaml`\.
 
@@ -26,7 +26,7 @@ The AWS Toolkit for Visual Studio Code supports multiple languages that you can 
 
 1. Install the [Python extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-python.python)\. This extension enables VS Code to debug Python applications\.
 
-1. Open an AWS SAM application, or [create one](create-sam.md#create-serverless-app)\.
+1. Open an AWS SAM application, or [create one](serverless-apps.md#serverless-apps-create)\.
 
 1. Open the folder that contains `template.yaml`\.
 
@@ -40,4 +40,4 @@ You only need to configure `virtualenv` once per system\.
 
 ## Using Your toolchain<a name="use-toolchain"></a>
 
-Once you have your toolchain set up, you can use it to [run or debug](run-debug-sam-app.md) the AWS SAM application\.
+Once you have your toolchain set up, you can use it to [run or debug](serverless-apps.md#serverless-apps-debug) the AWS SAM application\.

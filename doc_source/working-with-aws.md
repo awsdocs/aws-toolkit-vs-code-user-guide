@@ -6,3 +6,4 @@ The AWS Toolkit for Visual Studio Code enables you a view and work with various 
 + [Working with AWS Services in the AWS Explorer](aws-explorer.md)
 + [Working with Amazon Elastic Container Service](ecs.md)
 + [Working with the AWS CDK Explorer](cdk-explorer.md)
++ [Working with AWS Serverless Application](serverless-apps.md)

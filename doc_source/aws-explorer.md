@@ -17,6 +17,5 @@ Some important points:
 + [Working with Amazon EventBridge](eventbridge.md)
 + [Working with AWS Lambda Functions](building-lambda.md)
 + [Working with Amazon S3](s3.md)
-+ [Working with AWS Serverless Application](serverless-apps.md)
 + [Working with Systems Manager Automation documents](systems-manager-automation-docs.md)
 + [Working with AWS Step Functions](stepfunctions.md)
