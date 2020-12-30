@@ -12,6 +12,7 @@ Some important points:
 + Certain features require certain AWS permissions\. For example, to see the AWS Lambda functions in your AWS account, the credentials you configured in [Establishing credentials](establish-credentials.md) must include at least read\-only Lambda permissions\. See the following topics for more information about the permissions that each feature needs\.
 
 **Topics**
++ [Working with Amazon API Gateway](apigateway.md)
 + [Working with AWS CloudFormation stacks](cloudformation.md)
 + [Working with CloudWatch Logs by using the AWS Toolkit for Visual Studio Code](cloudwatchlogs.md)
 + [Working with Amazon EventBridge](eventbridge.md)

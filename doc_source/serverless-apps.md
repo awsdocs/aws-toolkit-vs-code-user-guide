@@ -11,6 +11,7 @@ The AWS Toolkit for Visual Studio Code provides support for [serverless applicat
 + [Deploying a serverless application to the AWS Cloud](#serverless-apps-deploy)
 + [Deleting a serverless application from the AWS Cloud](#serverless-apps-delete)
 + [Running and debugging Lambda functions directly from code](serverless-apps-run-debug-no-template.md)
++ [Running and debugging local Amazon API Gateway resources](debug-apigateway.md)
 + [Configuration options for debugging serverless applications](serverless-apps-run-debug-config-ref.md)
 + [Troubleshooting serverless applications](serverless-apps-troubleshooting.md)
 
@@ -23,18 +24,9 @@ The AWS Toolkit for Visual Studio Code provides support for [serverless applicat
 
 ## IAM permissions for serverless applications<a name="serverless-apps-permissions"></a>
 
-In the Toolkit for VS Code you must have a credentials profile that contains the AWS Identity and Access Management \(IAM\) permissions necessary to deploy and run serverless applications\. You must have appropriate read/write access to the following services: Amazon Simple Storage Service \(Amazon S3\), AWS CloudFormation, Lambda, Amazon API Gateway, and Amazon Elastic Container Registry \(Amazon ECR\)\.
+In the Toolkit for VS Code you must have a credentials profile that contains the AWS Identity and Access Management \(IAM\) permissions necessary to deploy and run serverless applications\. You must have appropriate read/write access to the following services: AWS CloudFormation, IAM, Lambda, Amazon API Gateway, Amazon Simple Storage Service \(Amazon S3\), and Amazon Elastic Container Registry \(Amazon ECR\)\.
 
-You have the following options for ensuring that you have the necessary permissions to deploy serverless applications:
-+ Grant full administrator privileges to your IAM user\.
-+ Attach the following AWS managed policies to your IAM user:
-  + AWSCloudFormationFullAccess
-  + IAMFullAccess
-  + AWSLambdaFullAccess
-  + AmazonAPIGatewayAdministrator
-  + AmazonEC2ContainerRegistryFullAccess
-
-For more information about attaching policies to an IAM user, see [Changing permissions for an IAM user](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_change-permissions.html) in the *IAM User Guide*\. For information on how to set up your credentials profile, see [Setting up your AWS credentials](setup-credentials.md)\.
+For information about ensuring that you have the necessary permissions to deploy and run serverless applications, see [Permissions](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/sam-permissions.html) in the *AWS Serverless Application Model Developer Guide*\. For information on how to set up your credentials profile, see [Setting up your AWS credentials](setup-credentials.md)\.
 
 ## Creating a new serverless application \(local\)<a name="serverless-apps-create"></a>
 

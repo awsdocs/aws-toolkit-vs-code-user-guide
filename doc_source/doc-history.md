@@ -6,6 +6,8 @@ The following table describes important changes in each release of the AWS Toolk
 
 | Change | Description | Date | 
 | --- |--- |--- |
+| [Debugging Amazon API Gateway resources](serverless-apps.md) | Added support for debugging local Amazon API Gateway resources\. | December 1, 2020 | 
+| [Amazon API Gateway](apigateway.md) | Added support for Amazon API Gateway\. | December 1, 2020 | 
 | [AWS Serverless Application](serverless-apps.md) | Added support for Lambda container images with serverless applications\. | December 1, 2020 | 
 | [AWS Systems Manager support](systems-manager-automation-docs.md) | Added support for Systems Manager Automation documents\. | September 30, 2020 | 
 | [CloudWatch Logs](cloudwatchlogs.md) | Added support for CloudWatch Logs\. | August 24, 2020 | 

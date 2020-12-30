@@ -13,6 +13,8 @@ The Lambda handlers that are detected by CodeLens depend on the language and run
 
 # To run and debug a serverless application directly from the application code
 
+
+
 1. To view your application files in the VS Code File Explorer, choose **View**, **Explorer**\.
 
 1. From the application folder \(for example, *my\-sample\-app*\), expand the function folder \(in this case, *hello\-world*\) and open the `app.js` file\.
@@ -37,6 +39,8 @@ The Lambda handlers that are detected by CodeLens depend on the language and run
 
    For more information about these and other entries in the `launch.json` file, see [Configuration options for debugging serverless applications](serverless-apps-run-debug-config-ref.md)\.
 
-1. If you're satisfied with the debug configuration, to start debugging, choose the green play arrow next to **RUN**\.
+1. 
+
+   If you're satisfied with the debug configuration, to start debugging, choose the green play arrow next to **RUN**\.
 
    When the debugging sessions starts, the **DEBUG CONSOLE** panel shows debugging output and displays any values that the Lambda function returns\. \(When debugging AWS SAM applications, **AWS Toolkit** is selected as the **Output** channel in the **Output** panel\.\)
