@@ -35,7 +35,7 @@ The AWS Toolkit for Visual Studio Code supports multiple languages that you can 
 You only need to configure `virtualenv` once per system\.
 
 1. Activate `virtualenv` by running one of the following:
-   + Bash shell: `./.venv/Scripts/activate`
+   + Bash shell: `source ./.venv/bin/activate`
    + PowerShell: `./.venv/Scripts/Activate.ps1`
 
 ## Using Your toolchain<a name="use-toolchain"></a>
