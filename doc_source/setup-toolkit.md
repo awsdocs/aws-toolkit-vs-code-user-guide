@@ -25,15 +25,4 @@ Before you can use certain features of the Toolkit for VS Code, you must have th
 
 ## Install the Toolkit for VS Code<a name="setup-install"></a>
 
-1. Start the VS Code editor\.
-
-1. In the **Activity Bar** on the side of the VS Code editor, choose the **Extensions** icon\. This opens the **Extensions** view, which allows you to access the VS Code Marketplace\.  
-![\[The Extensions icon in the VS Code Activity Bar.\]](http://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/images/aws-toolkit-extensions.png)
-
-1. In the search box for **Extensions**, search for **AWS Toolkit**\. Choose the entry to see its details in the right pane\.
-
-1. In the right pane, choose **Install**\.
-
-1. Once installed, if you're prompted to restart the editor, choose **Reload Required** to finish installation\.
-
-After you install the Toolkit for VS Code, you should configure your [credentials](establish-credentials.md) to enable you to access your AWS resources from within VS Code\.
+Install AWS Toolkit from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=AmazonWebServices.aws-toolkit-vscode).
